@@ -1,0 +1,223 @@
+section.main {
+  position: relative;
+  top: 128px;
+  /* height: 200; */
+}
+
+section.banner {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 30px; */
+}
+
+section.banner div {
+  width: 50%;
+  padding: 0 4%;
+}
+section.banner .left {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: right; */
+  text-align: right;
+}
+section.banner .left h3 {
+  color: #17191e;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+section.banner .left h3 span {
+  color: #f75e2f;
+}
+
+section.banner .left p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+section.banner .left button {
+  border-width: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1em;
+  fill: var(--e-global-color-primary);
+  color: var(--e-global-color-primary);
+  background-color: #f75e2f;
+  border-radius: 10px 10px 10px 10px;
+  padding: 18px 32px 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+section.banner .right img {
+  width: 100%;
+}
+
+section.after-banner {
+  margin: 100px 0;
+  text-align: right;
+  background-image: url("https://axelar.network/wp-content/uploads/2022/01/axelar-divider-tin-ver.jpg");
+  background-position: 0 11px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  /* padding: 8% 5% 5%; */
+  padding: 5% 5%;
+  /* height: 15%; */
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  position: relative;
+  color: #fff;
+}
+section.after-banner > div {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+section.after-banner p {
+  font-size: 28px;
+}
+section.after-banner i {
+  background-color: #7ab694;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 0 10px;
+}
+section.about {
+  padding: 0 10%;
+}
+
+section.about h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #17191e;
+}
+
+section.about p {
+  font-size: 19px;
+  font-weight: 300;
+}
+
+section.partners {
+  margin: 5% 0;
+  height: 50%;
+}
+section.partners div.partner-header,
+section.team div.team-header {
+  background-image: url("https://axelar.network/wp-content/uploads/2022/01/Banner-BG-1-scaled.jpg");
+  background-position: bottom center;
+  background-size: cover;
+  padding: 2% 10%;
+  color: #fff;
+  font-size: 42px;
+  font-weight: 900;
+}
+
+section.partners .images,
+section.team .members {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  justify-content: space-around;
+  margin-top: 50px;
+  grid-gap: 50px 0;
+  padding: 2% 10%;
+}
+
+section.partners .images img {
+  height: 30px;
+}
+
+section.team .members img {
+  width: 100%;
+  border-radius: 10px;
+}
+p.name {
+  color: #1d1b1b;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+section.team .members .inner {
+  display: flex;
+  align-items: center;
+}
+
+section.team .members .inner p {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+section.team .members .inner i {
+  color: #fff;
+  background-color: #7ab694;
+  padding: 8px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+section.team .members p.description {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 2% 10%;
+}
+
+footer p {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 200;
+}
+footer > div {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px 0;
+}
+footer div div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+
+footer img {
+  width: 47%;
+  height: 58px;
+}
+
+footer div div:nth-child(1) p {
+  font-size: 15px;
+}
+
+footer div div:nth-child(1) div {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer div div:nth-child(1) div i {
+  background-color: #7ab694;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+footer div div:nth-child(2) p,
+footer div div:nth-child(3) p,
+footer div div:nth-child(4) p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+footer div div:nth-child(2) li,
+footer div div:nth-child(3) li,
+footer div div:nth-child(4) li {
+  /* //text-decoration: none; */
+  list-style: none;
+  font-size: 14px;
+  text-align: start;
+  cursor: pointer;
+}
