@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="footer">
       <div>
         <div>
           <img src="https://axelar.network/wp-content/uploads/2021/06/Axelar-Logo-White.svg" />

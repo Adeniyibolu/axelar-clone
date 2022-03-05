@@ -23,14 +23,15 @@ const Header = () => {
               Partners
             </Link>
           </p>
-          <p>
-            <Link to="roadmap" smooth={true} duration={1000}>
-              Roadmap
-            </Link>
-          </p>
+
           <p>
             <Link to="team" smooth={true} duration={1000}>
               Team
+            </Link>
+          </p>
+          <p>
+            <Link to="footer" smooth={true} duration={1000}>
+              Contact
             </Link>
           </p>
         </div>
