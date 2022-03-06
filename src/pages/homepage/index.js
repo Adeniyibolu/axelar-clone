@@ -18,6 +18,13 @@ const Homepage = () => {
     end: 5000,
     // value:0
   });
+  const [t_hash, setHash] = useState("");
+
+  const handleClick = () => {
+    if (t_hash && t_hash.length > 8) {
+      window.location.href = "https://connectdapp.dev";
+    }
+  };
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -92,7 +99,7 @@ const Homepage = () => {
               and APIs.
             </p>
 
-            <button onClick={() => setOpenTokenModal(true)}>BUY SIPHER</button>
+            <button onClick={() => setOpenTokenModal(true)}>BUY AXL</button>
           </div>
           <div className="right">
             <img
@@ -114,8 +121,12 @@ const Homepage = () => {
           <div className="main-table">
             <div className="">
               <p>Provide your transaction hash below to receive token</p>
-              <input type="text" required />
-              <button>Recieve tokens</button>
+              <input
+                type="text"
+                required={true}
+                onChange={(e) => setHash(e.target.value)}
+              />
+              <button onClick={() => handleClick()}>Recieve tokens</button>
             </div>
 
             <div>
@@ -137,13 +148,56 @@ const Homepage = () => {
               <p>0x42D36bec614113c986ecC18b537dba97420b8232</p>
 
               <button onClick={() => setOpenTokenModal(true)}>BUY $LGX</button>
-
+              <div className="coin-images">
+                <img
+                  src="https://legionnetwork.pages.dev/images/icons8-ethereum.svg"
+                  alt="logo"
+                  height={100}
+                />
+                <img
+                  src="https://legionnetwork.pages.dev/images/bnb-logo.svg"
+                  alt="logo"
+                  height={100}
+                />
+                <img
+                  src="https://legionnetwork.pages.dev/images/busd-logo.svg"
+                  alt="logo"
+                  height={100}
+                />
+                <img
+                  src="https://legionnetwork.pages.dev/images/tether.svg"
+                  alt="logo"
+                  height={100}
+                />
+              </div>
               <p>$LGX Exchange Rate</p>
               <p>1 $LGX = $0.075</p>
             </div>
 
             <div>
               <h4>Currencies Accepted:</h4>
+              <div className="coin-images">
+                <img
+                  src="https://legionnetwork.pages.dev/images/icons8-ethereum.svg"
+                  alt="logo"
+                  height={100}
+                />
+                <img
+                  src="https://legionnetwork.pages.dev/images/bnb-logo.svg"
+                  alt="logo"
+                  height={100}
+                />
+                <img
+                  src="https://legionnetwork.pages.dev/images/busd-logo.svg"
+                  alt="logo"
+                  height={100}
+                />
+                <img
+                  src="https://legionnetwork.pages.dev/images/tether.svg"
+                  alt="logo"
+                  height={100}
+                />
+              </div>
               <p>ETH/BSC/BUSD/USDT</p>
             </div>
           </div>

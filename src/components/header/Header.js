@@ -38,7 +38,7 @@ const Header = ({ setOpenTokenModal, setOpenNavPopUp }) => {
         </div>
 
         <div className="right">
-          <p onClick={() => setOpenTokenModal(true)}>BUY SIPHER</p>
+          <p onClick={() => setOpenTokenModal(true)}>BUY AXL</p>
         </div>
 
         <div className="bread" onClick={() => setOpenNavPopUp(true)}>
