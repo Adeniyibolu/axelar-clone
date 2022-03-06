@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-scroll";
 import "./index.css";
-const Header = () => {
+import "./mobile.css";
+const Header = ({ setOpenTokenModal, setOpenNavPopUp }) => {
   return (
     <header>
       <section className="heading">
@@ -37,7 +38,13 @@ const Header = () => {
         </div>
 
         <div className="right">
-          <p>BUY SIPHER</p>
+          <p onClick={() => setOpenTokenModal(true)}>BUY SIPHER</p>
+        </div>
+
+        <div className="bread" onClick={() => setOpenNavPopUp(true)}>
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
       </section>
       <section className="widget">
