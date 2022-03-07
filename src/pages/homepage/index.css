@@ -127,8 +127,9 @@ section.token-sale .main-table > div:nth-child(2) {
   text-align: center;
 }
 section.token-sale .main-table div.coin-images {
-  /* display: flex; */
-  /* justify-content: space-between; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   /* width: 50%; */
   /* display: none; */
@@ -230,7 +231,7 @@ section.token-sale .main-table > div:nth-child(3) .coin-images {
 }
 
 section.token-sale .main-table > div:nth-child(3) .coin-images img {
-  height: 40px;
+  /* height: 40px; */
   width: 10%;
 }
 

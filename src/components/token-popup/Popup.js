@@ -7,7 +7,7 @@ const Popup = ({ setOpenTokenModal }) => {
         <div className="class">
           <h1>$LGX Public Sale</h1>
           <p>Public Sale Address:</p>
-          <p>0x42D36bec614113c986ecC18b537dba97420b8232</p>
+          <p>0x360B8F3A12c58Fb7c55362D1813cD333fae781d6</p>
           <p>
             Allowed Currencies: <span>ETH/BSC / BUSD/USDT</span>
           </p>

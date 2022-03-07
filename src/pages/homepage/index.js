@@ -145,7 +145,7 @@ const Homepage = () => {
 
               <p>Public Sale Address:</p>
               <br></br>
-              <p>0x42D36bec614113c986ecC18b537dba97420b8232</p>
+              <p>0x360B8F3A12c58Fb7c55362D1813cD333fae781d6</p>
 
               <button onClick={() => setOpenTokenModal(true)}>BUY $LGX</button>
               <div className="coin-images">
@@ -154,15 +154,17 @@ const Homepage = () => {
                   alt="logo"
                   height={100}
                 />
-                <img
+                {/* <img
                   src="https://legionnetwork.pages.dev/images/bnb-logo.svg"
                   alt="logo"
                   height={100}
-                />
+                /> */}
                 <img
-                  src="https://legionnetwork.pages.dev/images/busd-logo.svg"
+                  src="https://cryptologos.cc/logos/usd-coin-usdc-logo.png"
                   alt="logo"
-                  height={100}
+                  height={20}
+                  // style={{ width: "2%" }}
+                  // width={30}
                 />
                 <img
                   src="https://legionnetwork.pages.dev/images/tether.svg"
@@ -182,15 +184,15 @@ const Homepage = () => {
                   alt="logo"
                   height={100}
                 />
-                <img
+                {/* <img
                   src="https://legionnetwork.pages.dev/images/bnb-logo.svg"
                   alt="logo"
                   height={100}
-                />
+                /> */}
                 <img
-                  src="https://legionnetwork.pages.dev/images/busd-logo.svg"
+                  src="https://cryptologos.cc/logos/usd-coin-usdc-logo.png"
                   alt="logo"
-                  height={100}
+                  // height={100}
                 />
                 <img
                   src="https://legionnetwork.pages.dev/images/tether.svg"
@@ -198,7 +200,7 @@ const Homepage = () => {
                   height={100}
                 />
               </div>
-              <p>ETH/BSC/BUSD/USDT</p>
+              <p>ETH/USDC/USDT</p>
             </div>
           </div>
         </section>
