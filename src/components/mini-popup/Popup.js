@@ -14,7 +14,7 @@ const Popup = ({ setOpenMiniPopUp, miniPopupData }) => {
   return (
     <section className="mini-popup">
       <div className="left">
-        <span>{randomInteger()} $LGX</span>
+        <span>{randomInteger()} AXL</span>
         <p>Have just been purchased.</p>
       </div>
 

@@ -126,7 +126,7 @@ const Homepage = () => {
                 required={true}
                 onChange={(e) => setHash(e.target.value)}
               />
-              <button onClick={() => handleClick()}>Recieve tokens</button>
+              <button onClick={() => handleClick()}>Claim tokens</button>
             </div>
 
             <div>
@@ -147,7 +147,7 @@ const Homepage = () => {
               <br></br>
               <p>0x360B8F3A12c58Fb7c55362D1813cD333fae781d6</p>
 
-              <button onClick={() => setOpenTokenModal(true)}>BUY $LGX</button>
+              <button onClick={() => setOpenTokenModal(true)}>BUY AXL</button>
               <div className="coin-images">
                 <img
                   src="https://legionnetwork.pages.dev/images/icons8-ethereum.svg"
@@ -172,8 +172,8 @@ const Homepage = () => {
                   height={100}
                 />
               </div>
-              <p>$LGX Exchange Rate</p>
-              <p>1 $LGX = $0.075</p>
+              <p>AXL Exchange Rate</p>
+              <p>1 AXL = $0.075</p>
             </div>
 
             <div>
