@@ -173,7 +173,7 @@ const Homepage = () => {
                 />
               </div>
               <p>AXL Exchange Rate</p>
-              <p>1 AXL = $0.075</p>
+              <p>1 AXL = $1</p>
             </div>
 
             <div>
